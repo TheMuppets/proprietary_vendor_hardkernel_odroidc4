@@ -6,9 +6,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),odroidc4)
 
-$(call add-radio-file-sha1-checked,radio/bootloader-console.img,51d30c156a99b9ae214b1faaa8b92dbc476974a9)
-$(call add-radio-file-sha1-checked,radio/bootloader-recovery.img,92d523b9ad878bbc9d609820a7273e56ce9e7e1f)
-$(call add-radio-file-sha1-checked,radio/bootloader.img,8e4407a4a843384f306aea16509c10a960bbb94c)
+$(call add-radio-file-sha1-checked,radio/bootloader-console.img,865aec3cbf86089c7d5f93b2fae0bf95b31e03d8)
+$(call add-radio-file-sha1-checked,radio/bootloader-recovery.img,7571b58151aa6f39ce2b6acc504ec3cc1d0a52e1)
+$(call add-radio-file-sha1-checked,radio/bootloader.img,474eebe6de991d45b168707a496a84309c92da03)
 $(call add-radio-file-sha1-checked,radio/misc.img,eb37860b2030f3d29ab61af22b96bae52bc7d42e)
 
 endif
