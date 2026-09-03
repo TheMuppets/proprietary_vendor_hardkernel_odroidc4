@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),odroidc4)
+ifneq ($(filter odroidc4 odroidc4_tab,$(TARGET_DEVICE)),)
 
 $(call add-radio-file-sha1-checked,radio/bootloader-console.img,865aec3cbf86089c7d5f93b2fae0bf95b31e03d8)
 $(call add-radio-file-sha1-checked,radio/bootloader-recovery.img,7571b58151aa6f39ce2b6acc504ec3cc1d0a52e1)
